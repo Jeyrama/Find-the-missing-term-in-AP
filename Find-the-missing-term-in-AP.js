@@ -15,3 +15,6 @@ The missing term will never be the first or last one.
 Example:
   findMissing([1, 3, 5, 9, 11]) == 7
 */
+
+
+// Solution
