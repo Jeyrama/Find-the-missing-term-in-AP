@@ -19,3 +19,8 @@ Example:
 
 // Solution
 
+let findMissing = function (list) {  
+  let expected_sum = (list[0] + list[list.length - 1]) * (list.length + 1) / 2;
+  let sum = list.reduce(function(acc, x) { return acc + x; });
+  return expected_sum - sum;
+}
